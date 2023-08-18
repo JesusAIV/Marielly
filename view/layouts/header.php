@@ -216,7 +216,7 @@
                     <div class="nav-triangulo"></div>
                     <div class="navi-items">
                         <ul class="navi-items-ul">
-                            <a href="iniciarsesion"><li class="navi-items-li">Iniciar sesión</li></a>
+                            <a href="<?php $configC->rutaLink("login") ?>"><li class="navi-items-li">Iniciar sesión</li></a>
                             <a href="registrarse"><li class="navi-items-li">Registrarse</li></a>
                         </ul>
                     </div>

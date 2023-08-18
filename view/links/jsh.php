@@ -1,2 +1,1 @@
-<script src="<?php echo SERVERURL.'view/assets/js/jquery.js' ?>"></script>
-<script src="<?php echo SERVERURL.'view/assets/js/main.js' ?>"></script>
+<script src="<?php $configC->rutaJs("sweetalert2.js") ?>"></script>
