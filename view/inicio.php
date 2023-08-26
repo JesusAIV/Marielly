@@ -49,8 +49,8 @@
         $view = new viewcontroller();
         $vistas = $view -> obtenervistacontrolador();
 
-        if($vistas == "inicio"){
-            $vistas = "./view/content/inicio.php";
+        if($vistas == "login"){
+            $vistas = "./view/content/login.php";
         }
     ?>
 
@@ -70,7 +70,7 @@
     ?>
 
     <div class="<?php echo $clasemain ?>">
-        <?php require_once $vistas;?>
+        <?php require_once "./view/content/login.php";?>
     </div>
 
     <?php

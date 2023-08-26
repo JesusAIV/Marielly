@@ -17,10 +17,18 @@
                             <div class="nav-triangulo"></div>
                             <div class="navc-items">
                                 <ul class="navc-items-ul">
-                                    <a href="bolsos"><li class="navc-items-li">Bolsos</li></a>
-                                    <a href="carteras"><li class="navc-items-li">Carteras</li></a>
-                                    <a href="mochilas"><li class="navc-items-li">Mochilas</li></a>
-                                    <a href="morrales"><li class="navc-items-li">Morrales</li></a>
+                                    <a href="bolsos">
+                                        <li class="navc-items-li">Bolsoss</li>
+                                    </a>
+                                    <a href="carteras">
+                                        <li class="navc-items-li">Carteras</li>
+                                    </a>
+                                    <a href="mochilas">
+                                        <li class="navc-items-li">Mochilas</li>
+                                    </a>
+                                    <a href="morrales">
+                                        <li class="navc-items-li">Morrales</li>
+                                    </a>
                                 </ul>
                             </div>
                         </div>
@@ -31,8 +39,12 @@
                             <div class="nav-triangulo"></div>
                             <div class="navi-items">
                                 <ul class="navi-items-ul">
-                                    <a href="quienessomos"><li class="navi-items-li">Quienes somos</li></a>
-                                    <a href="contacto"><li class="navi-items-li">Contacto</li></a>
+                                    <a href="quienessomos">
+                                        <li class="navi-items-li">Quienes somos</li>
+                                    </a>
+                                    <a href="contacto">
+                                        <li class="navi-items-li">Contacto</li>
+                                    </a>
                                 </ul>
                             </div>
                         </div>
@@ -216,8 +228,12 @@
                     <div class="nav-triangulo"></div>
                     <div class="navi-items">
                         <ul class="navi-items-ul">
-                            <a href="iniciarsesion"><li class="navi-items-li">Iniciar sesión</li></a>
-                            <a href="registrarse"><li class="navi-items-li">Registrarse</li></a>
+                            <a href="login">
+                                <li class="navi-items-li">Iniciar sesión</li>
+                            </a>
+                            <a href="registrarse">
+                                <li class="navi-items-li">Registrarse</li>
+                            </a>
                         </ul>
                     </div>
                 </div>
