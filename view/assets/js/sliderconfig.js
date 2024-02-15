@@ -1,4 +1,5 @@
 (function () {
+
     const slider = new Slider('.slider-main', {
         // Optional parameters
         loop: true,
@@ -53,4 +54,5 @@
             prevEl: '.slider-button-prev',
         },
     });
+
 })();
