@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 :root {
     --bg: #264653;
@@ -14,7 +14,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Aleo', serif;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 /* Globales */
@@ -231,6 +235,7 @@ li {
     text-align: center;
     padding: 5px;
     cursor: pointer;
+    width: max-content;
 }
 
 .navb-pagar-bolsa p {
@@ -542,7 +547,7 @@ li {
 
 .slider-productos,
 .section-add-recientes {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* Inicio Agregados Recientemente */
@@ -1009,4 +1014,108 @@ input[type="range"]::-ms-thumb {
     overflow: hidden;
     top: calc(-2000px/5);
     left: calc(-25% - 40px);
+}
+
+.grid_photo-descripton {
+    margin-top: 100px;
+    display: flex;
+}
+
+.producto_photo {
+    width: 50%;
+}
+
+.photo_producto_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.photo_gallery_producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo_gallery {
+    width: 200px;
+}
+
+.photo_gallery img {
+    width: 100%;
+}
+
+.slider_photo_gallery img {
+    width: 100%;
+}
+
+.producto_description {
+    width: 50%;
+}
+
+.slider_photo_gallery .slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto_description {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.producto_description a {
+    color: #000000;
+}
+
+.producto_ruta {
+    margin-bottom: 2rem;
+}
+
+.producto_ruta .seleccion,
+.producto_description .producto_title,
+.producto_description .producto_price {
+    font-weight: 500;
+}
+
+.producto_description .navb-pagar-bolsa p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.producto_price {
+    margin: 20px 0;
+}
+
+.categorias-titulo p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.especificacion_click {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.especificacion .arrow {
+    cursor: pointer;
+}
+
+.especificacion_text p {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.especificacion_click {
+    margin-top: 20px;
+}
+
+.especificacion_text {
+    height: 0;
+    overflow: auto;
 }
