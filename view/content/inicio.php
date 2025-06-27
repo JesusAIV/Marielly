@@ -19,10 +19,10 @@
     <div class="categorias-titulo">
         <h2>Categorías</h2>
     </div>
-    <div class="categorías-contenido">
+    <div class="categorías-contenido cm-grid" style="--cm-col-lg:5;--cm-col-md:2;--cm-col-sm:2;--cm-gap-lg:20px;--cm-gap-sm:10px;">
         <div class="content-categorias">
             <div class="content-categoria-img">
-                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/bolso.jpg-1669676686.jpeg' ?>" alt="">
+                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/categoria01.jpg' ?>" alt="">
             </div>
             <div class="content-cat-detalles">
                 <div class="content-cat-titulo">
@@ -35,7 +35,7 @@
         </div>
         <div class="content-categorias">
             <div class="content-categoria-img">
-                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/carteras.jpg-1669256184.jpeg' ?>" alt="">
+                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/categoria02.jpg' ?>" alt="">
             </div>
             <div class="content-cat-detalles">
                 <div class="content-cat-titulo">
@@ -48,7 +48,7 @@
         </div>
         <div class="content-categorias">
             <div class="content-categoria-img">
-                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/mochilas.jpg-1669256282.jpeg' ?>" alt="">
+                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/categoria03.jpg' ?>" alt="">
             </div>
             <div class="content-cat-detalles">
                 <div class="content-cat-titulo">
@@ -61,7 +61,20 @@
         </div>
         <div class="content-categorias">
             <div class="content-categoria-img">
-                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/morrales.jpg-1669256251.jpeg' ?>" alt="">
+                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/categoria04.jpg' ?>" alt="">
+            </div>
+            <div class="content-cat-detalles">
+                <div class="content-cat-titulo">
+                    <p class="content-cat-p">Carteras</p>
+                </div>
+                <div class="content-cat-link">
+                    <a href="#" class="content-cat-a">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-categorias">
+            <div class="content-categoria-img">
+                <img class="categoria-img" src="<?php echo SERVERURL.'view/assets/img/categoria/categoria05.jpg' ?>" alt="">
             </div>
             <div class="content-cat-detalles">
                 <div class="content-cat-titulo">

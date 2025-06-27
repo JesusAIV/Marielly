@@ -6,6 +6,14 @@
 
 <!-- Inicio contenido (filtros y productos) Categoria -->
 <div class="container-sec-categorias">
+    <div class="btn-filtros_mobile">
+        <div class="icon">
+            <img src="<?php echo SERVERURL . 'view/assets/img/svg/filtro.svg' ?>" alt="">
+        </div>
+        <div class="subtitle-filtros">
+            <p class="filtros-text">Filtros</p>
+        </div>
+    </div>
     <div class="container-filtros">
         <div class="btn-filtros">
             <div class="icon">
@@ -71,9 +79,7 @@
                 <p class="lbl-filtro">Filtros</p>
             </div>
             <div class="m-filtros-close">
-                <a href="">
-                    <img src="<?php echo SERVERURL.'view/assets/img/svg/close.svg' ?>" alt="">
-                </a>
+                <img src="<?php echo SERVERURL . 'view/assets/img/svg/close.svg' ?>" alt="">
             </div>
         </div>
         <div class="separador"></div>
@@ -131,7 +137,7 @@
             <div class="producto-categoria">
                 <div class="prod-cat-image">
                     <a href="">
-                        <img src="<?php echo SERVERURL.'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
+                        <img src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
                     </a>
                 </div>
                 <div class="prod-cat-desc">
@@ -151,7 +157,7 @@
             <div class="producto-categoria">
                 <div class="prod-cat-image">
                     <a href="">
-                        <img src="<?php echo SERVERURL.'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
+                        <img src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
                     </a>
                 </div>
                 <div class="prod-cat-desc">
@@ -171,7 +177,7 @@
             <div class="producto-categoria">
                 <div class="prod-cat-image">
                     <a href="">
-                        <img src="<?php echo SERVERURL.'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
+                        <img src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
                     </a>
                 </div>
                 <div class="prod-cat-desc">
@@ -191,7 +197,7 @@
             <div class="producto-categoria">
                 <div class="prod-cat-image">
                     <a href="">
-                        <img src="<?php echo SERVERURL.'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
+                        <img src="<?php echo SERVERURL . 'view/assets/img/addreciente/1484-2067847-430x491.jpg' ?>">
                     </a>
                 </div>
                 <div class="prod-cat-desc">

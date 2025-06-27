@@ -5,7 +5,7 @@
                 <img src="<?php echo SERVERURL . 'view/assets/img/svg/menu.svg' ?>" alt="">
             </div>
             <div class="nav-logo">
-                <a href="#" class="nav-logo-a">
+                <a href="inicio" class="nav-logo-a">
                     <h1 class="nav-logo-h1">Confecciones Vasquez</h1>
                 </a>
             </div>

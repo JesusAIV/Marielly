@@ -2,3 +2,4 @@
 <script src="<?php echo SERVERURL.'view/assets/js/slider.js' ?>"></script>
 <script src="<?php echo SERVERURL.'view/assets/js/sliderconfig.js' ?>"></script>
 <script src="<?php echo SERVERURL.'view/assets/js/range.js' ?>"></script>
+<script src="<?php echo SERVERURL.'view/assets/js/datatables.min.js' ?>"></script>
